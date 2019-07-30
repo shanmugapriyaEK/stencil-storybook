@@ -1,7 +1,7 @@
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'test',
+  namespace: 'stencil-storybook',
   outputTargets: [
     {
       type: 'dist',
