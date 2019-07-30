@@ -4,12 +4,13 @@ Thanks to Ryan Wheale/DesignByOnyx
 
 I have used the https://github.com/DesignByOnyx/stencil-storybook-starter/ 
 and enhanced the storybook with theming, knobs, notes
-
+```bash
 git clone https://github.com/shanmugapriyaEK/Stencil-Storybook.git
 cd Stencil-Storybook
 git remote remove origin
 npm install
 npm run all
+```
 
 ### Features
 - automatic generation of stories for all components
