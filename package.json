@@ -51,12 +51,12 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shanmugapriyaEK/LearnStencil.git"
+    "url": "git+https://github.com/shanmugapriyaEK/stencil-storybook.git"
   },
   "author": "Shanmuga Priya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shanmugapriyaEK/Stencil-Storybook/issues"
+    "url": "https://github.com/shanmugapriyaEK/stencil-storybook/issues"
   },
-  "homepage": "https://github.com/shanmugapriyaEK/Stencil-Storybook#readme"
+  "homepage": "https://github.com/shanmugapriyaEK/stencil-storybook#readme"
 }
