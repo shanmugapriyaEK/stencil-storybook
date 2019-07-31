@@ -62,29 +62,28 @@ To run the unit tests for the components, run:
 npm test
 ```
 
-Need help? Check out our docs [here](https://stenciljs.com/docs/my-first-component).
+Need help? Check out the docs [here](https://stenciljs.com/docs/my-first-component).
+
+# Storybook
+
+Storybook is a user interface development environment and playground for UI components. The tool enables developers to create components independently and showcase components interactively in an isolated development environment.
+
+Storybook runs outside of the main app so users can develop UI components in isolation without worrying about app specific dependencies and requirements.
+
+Storybook also supports a lot of addons and comes with a flexible API to customize Storybook as desired. A Static version of Storybook can also be built and deployed to an HTTP server.# Naming Components
+
+When creating new component tags, we recommend _not_ using `stencil` in the component name (ex: `<stencil-datepicker>`). This is because the generated component has little to nothing to do with Stencil; it's just a web component!
 
 
-## Naming Components
+To run the storybook:
+
+```bash
+npm run storybook
+```
+
+### Naming Components
 
 When creating new component tags, we recommend _not_ using `stencil` in the component name (ex: `<stencil-datepicker>`). This is because the generated component has little to nothing to do with Stencil; it's just a web component!
 
 
 
-## Using this component
-
-### Script tag
-
-- [Publish to NPM](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-- Put a script tag similar to this `<script src='https://unpkg.com/my-component@0.0.1/dist/mycomponent.js'></script>` in the head of your index.html
-- Then you can use the element anywhere in your template, JSX, html etc
-
-### Node Modules
-- Run `npm install my-component --save`
-- Put a script tag similar to this `<script src='node_modules/my-component/dist/mycomponent.js'></script>` in the head of your index.html
-- Then you can use the element anywhere in your template, JSX, html etc
-
-### In a stencil-starter app
-- Run `npm install my-component --save`
-- Add an import to the npm packages `import my-component;`
-- Then you can use the element anywhere in your template, JSX, html etc
