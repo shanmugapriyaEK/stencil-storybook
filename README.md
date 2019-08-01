@@ -16,7 +16,7 @@ npm run all
 - automatic generation of stories for all components
 - automatic notes generation.
 - support custom stories
-- supports themeing the stories and showing the stencil components
+- supports theming the stories and showing the stencil components
 - automatic knobs generation for all `@Props` on your components
     - ability to customize which knobs are used for each prop (though the code does a good job of guessing for strings, numbers, booleans, objects, dates, and colors).
 - ability to define multiple states which are rendered on a single page, each with a title, description, and props to use for rendering. A copyable code snippet is also generated for each state (kind of a lightweight chapters implementation)
@@ -79,6 +79,7 @@ To run the storybook:
 
 ```bash
 npm run storybook
+npm run all
 ```
 
 ### Naming Components
