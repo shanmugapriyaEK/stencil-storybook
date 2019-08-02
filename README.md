@@ -13,6 +13,7 @@ npm run all
 ```
 
 ### Features
+- automatic generation of default stencil component using cmd `npm run generate`
 - automatic generation of stories for all components
 - automatic notes generation.
 - support custom stories
