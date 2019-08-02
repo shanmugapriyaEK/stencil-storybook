@@ -62,6 +62,14 @@ To run the unit tests for the components, run:
 npm test
 ```
 
+To generate component in stencil
+
+```bash
+npm run generate
+```
+
+Please provide the component name when prompted
+
 Need help? Check out the docs [here](https://stenciljs.com/docs/my-first-component).
 
 # Storybook
