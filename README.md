@@ -24,8 +24,6 @@ npm run all
 - ability to define notes for each component (usually you want the generated readme)
 - live rebuild/reload of stencil components (it's still a little wonky - sometimes you have to refresh the browser) also comes with the viewport add-on
 
-
-
 # Stencil Component Starter
 
 This is a starter project for building a standalone Web Component using Stencil.
@@ -44,26 +42,33 @@ Stencil components are just Web Components, so they work in any major framework 
 
 To start building a new web component using Stencil, clone this repo to a new directory:
 
-run:
+
+#### Initial Setup
 
 ```bash
 npm install
 npm start
 ```
 
-To build the component for production, run:
+#### Build the application:
 
 ```bash
 npm run build
 ```
 
-To run the unit tests for the components, run:
+#### Developement Mode:
+
+```bash
+npm run start
+```
+
+#### Unit tests the components:
 
 ```bash
 npm test
 ```
 
-To generate component in stencil
+#### To generate Stencil component in stencil
 
 ```bash
 npm run generate
@@ -71,6 +76,11 @@ npm run generate
 
 Please provide the component name when prompted
 
+#### Build stencil and storybook
+
+```bash
+npm run all
+```
 Need help? Check out the docs [here](https://stenciljs.com/docs/my-first-component).
 
 # Storybook
@@ -84,14 +94,14 @@ Storybook also supports a lot of addons and comes with a flexible API to customi
 When creating new component tags, we recommend _not_ using `stencil` in the component name (ex: `<stencil-datepicker>`). This is because the generated component has little to nothing to do with Stencil; it's just a web component!
 
 
-To run the storybook:
+#### To run the storybook:
 
 ```bash
 npm run storybook
 npm run all
 ```
 
-### Naming Components
+### Note on Naming Components
 
 When creating new component tags, we recommend _not_ using `stencil` in the component name (ex: `<stencil-datepicker>`). This is because the generated component has little to nothing to do with Stencil; it's just a web component!
 
