@@ -50,7 +50,7 @@ npm install
 npm start
 ```
 
-#### Build the application:
+#### Building the application:
 
 ```bash
 npm run build
@@ -62,13 +62,13 @@ npm run build
 npm run start
 ```
 
-#### Unit tests the components:
+#### Unit test the components:
 
 ```bash
 npm test
 ```
 
-#### To generate Stencil component in stencil
+#### Generate Stencil component
 
 ```bash
 npm run generate
@@ -76,7 +76,7 @@ npm run generate
 
 Please provide the component name when prompted
 
-#### Build stencil and storybook
+#### Build stencil and storybook concurrently
 
 ```bash
 npm run all
